@@ -2,7 +2,7 @@
   "name": "serverless-type-graphql-build-schema-bug",
   "version": "1.0.0",
   "scripts": {
-    "start": "serverless offline start"
+    "start": "serverless offline start --useSeparateProcesses"
   },
   "dependencies": {
     "apollo-server-lambda": "^2.11.0",
